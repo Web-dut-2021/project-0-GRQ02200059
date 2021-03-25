@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en",charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<head>
+<title>Search</title>
+<style>
+.advanced {
+    margin: auto;
+    position: absolute;
+	left: 20%;
+	top: 20%;
+    border: 3px solid #ffffff;
+    padding: 10px;
+}
+</style>
+    <style>
+.search {
+    margin: auto;
+    position: absolute;
+	left: 93%;
+	top: 5%;
+	transform: translate(-50%,-50%);
+    border: 3px solid #ffffff;
+    padding: 10px;
+}
+        .search_text{
+             margin: auto;
+    position: absolute;
+	left: 50%;
+	top: 150%;
+	transform: translate(-50%,-50%);
+    border: 3px solid #ffffff;
+    padding: 10px;
+        }
+        .picture_search{
+           margin: auto;
+
+
+    border: 3px solid #ffffff;
+    padding: 10px;
+
+        }
+</style>
+</head>
+<body>
+
+
+<div class="advanced">
+    <form action="https://google.com/search">
+        使用以下条件来搜索网页：
+      <div>
+
+       以下所有字词：   <input type="text" name="as_q" size="80" >
+          <br>
+       与以下字词完全匹配： <input type="text" name="as_epq" size="80" >    <br>
+       以下任意字词：：    <input type="text" name="as_oq" size="80" >    <br>
+       不含以下任意字词：  <input type="text" name="as_eq" size="80" >    <br>
+       数字范围：从       <input type="text" name="as_nlo" size="20" > 到<input type="text" name="as_nhi" size="20" ><br>
+          <input type="submit" value="搜索" >
+      </div>
+
+</form>
+ </div>
+<div class="search">
+
+<a href="index.html">
+    <button>普通搜索</button>
+</a>
+</div>
+<div class="picture_search">
+
+<a href="picture.html">
+    <button>图片搜索</button>
+</a>
+</div>
+
+</body>
+</html>
